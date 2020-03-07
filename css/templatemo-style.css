@@ -188,7 +188,7 @@ hr {
 .portfolio-thumb {
   overflow: hidden;
   margin: 0;
-  position: relative;
+  height: 300px;
 }
 .portfolio-overlay {
   display: -webkit-box;
@@ -297,10 +297,10 @@ hr {
   overflow: hidden;
 }
 .fluid-img {
-  display: block; 
-  width: 25%;
-  height: 55%;
-  position: relative;
+  display: flex; 
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
 }
 /* END PORTFOLIO */
 
