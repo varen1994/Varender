@@ -189,6 +189,7 @@ hr {
   overflow: hidden;
   margin: 0;
   height: 300px;
+  position: relative;
 }
 .portfolio-overlay {
   display: -webkit-box;
@@ -297,10 +298,12 @@ hr {
   overflow: hidden;
 }
 .fluid-img {
-  display: flex; 
-  margin-left: auto;
-  margin-right: auto;
-  background-attachment: fixed;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%,-50%);
+  align-items: center;
+  justify-content: center;
 }
 /* END PORTFOLIO */
 
